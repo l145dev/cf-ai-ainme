@@ -1,10 +1,11 @@
 import Sidebar from "./Sidebar";
+import ChatUI from "./ChatUI";
 
 const App = () => {
   return (
-    <>
-      <Sidebar />
-    </>
+    <Sidebar>
+      <ChatUI />
+    </Sidebar>
   );
 };
 
